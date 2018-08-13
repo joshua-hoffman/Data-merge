@@ -17,7 +17,6 @@ With uploader
 End With
 uploader.Activate
 Sheets(1).Name = "Sheet1"
-Sheets("Sheet1").Range("Z2").PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
-    :=False, Transpose:=False
+Sheets("Sheet1").Range("Z2").PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks:=False, Transpose:=False
     
 End Sub
